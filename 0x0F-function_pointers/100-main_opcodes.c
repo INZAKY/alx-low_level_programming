@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - Displays its own opcode instructions
- * @argc: The count of arguments
- * @argv: The collection of arguments stored in an array
+ * main - prints its own opcodes
+ * @argc: number of arguments
+ * @argv: array of arguments
  *
  * Return: Always 0 (Success)
  */
