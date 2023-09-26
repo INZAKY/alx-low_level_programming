@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * free_listint2 - deallocates memory for a linked list and sets the head pointer to NULL
- * @head: A reference to the listint_t list that needs to be deallocated
+ * free_listint2 - frees a linked list
+ * @head: pointer to the listint_t list to be freed
  */
 void free_listint2(listint_t **head)
 {

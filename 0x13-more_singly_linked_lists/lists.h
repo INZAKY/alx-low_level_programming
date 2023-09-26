@@ -5,12 +5,12 @@
 #include <stdlib.h>
 
 /**
- * A singly linked list structure named listint_s
+ * struct listint_s - singly linked list
  * @n: integer
- * @next: Refers to the succeeding node
+ * @next: points to the next node
  *
- * Description: The structure representing a node in a singly linked list
- * for More singly linked lists priject
+ * Description: singly linked list node structure
+ * for Holberton project
  */
 typedef struct listint_s
 {
@@ -35,4 +35,3 @@ size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
 
 #endif
-

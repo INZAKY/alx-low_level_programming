@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * free_listint - Deallocates memory associated with a linked list
- * @head: The listint_t list that needs to have its memory freed
+ * free_listint - frees a linked list
+ * @head: listint_t list to be freed
  */
 void free_listint(listint_t *head)
 {
